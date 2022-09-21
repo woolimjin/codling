@@ -1,0 +1,48 @@
+@import url(font.css);
+
+* {font-family: 'MapoPeacefull'; color: #373F57;}
+
+/* body */
+body {margin: 0;}
+ header{margin: 0 auto; width: 1220px;}
+ a{text-decoration: none;}
+ #menu-bar{width: 1220px; margin: 0 auto; margin-top: 25px;  display: flex; justify-content: space-between; align-items: center;}
+/*header*/
+#menu-bar>div{width: 131.5px; height: 5px;}
+#logoimg{width: 253.32px; height: 56.82px;}
+#profilelogo{width: 35px; height: 35px; margin: 5px;}
+#profile-box{display: flex; align-items: center; height: 56.81px; color: #373F57; font-weight: bold;}
+#mename{position: relative; top:-15px;}
+#hover-box{height: 45px;}
+#hover-box:hover{background-color: #e6e6e6; border-radius: 30px; cursor: pointer;}
+#profile-hover{border: 1px solid #cecece; width: 150px; height: 160px; float: right; margin-right: -10px; border-radius: 10px;}
+#profile-hover>ul{margin-top: 0px;}
+#profile-hover>ul>li>a{text-decoration: none; color: #656978; font-size: 1rem; display: inline-block;
+    width: 150px; height: 40px; display: flex; align-items: center; margin-left: -40px;
+    margin-top: 10px; font-weight: bold;}
+#profile-hover>ul>li>a>span{ margin-left: 10px;}
+#mypage>a:hover{background-color: #e6e6e6;}
+#resume>a:hover{background-color: #e6e6e6;}
+#logout>a:hover{background-color: #e6e6e6;}
+ul{list-style: none;}
+
+/*section*/
+#password_t{width: 200px; height: 20px; margin-left: 20px; outline: unset;}
+section {width: 1000px; margin: 100px auto; margin-bottom: 200px;}
+section h2 {margin: 20px 20px; font-size: 30px;}
+#wrap {padding: 60px 0; line-height: 75px; font-size: 1.5rem; background-color: #f8f8f8; border-radius: 10px;}
+#wrap div {display: flex;}
+#wrap div p {margin: 0 150px; width: 90px;}
+
+#choice {display: flex; justify-content: center; margin-top: 50px;}
+.modify, .drop {font-size: 30px; border: none; padding: 15px 40px; border-radius: 10px;}
+.modify {background-color: rgba(165, 227, 116, 0.7); margin-right: 50px;}
+.modify:hover {background-color: rgb(165, 227, 116);}
+.drop {background-color: rgba(163, 163, 163, 0.7);}
+.drop:hover {background-color: rgb(163, 163, 163);}
+/*footer*/
+footer {display: flex; height: 80px; background-color: #F0F0F0; border-top: #dddddd solid 0.1rem; color: #BEBEBE; margin-top: 5vh; font-size: 0.8rem; justify-content: center; align-items: center;}
+footer >a{text-decoration: none; color: #BEBEBE;}
+footer a:hover {text-decoration: underline; color: #BEBEBE;}
+footer img {margin: 0 2rem;}
+a {text-decoration: none; color: inherit;}

@@ -1,0 +1,43 @@
+        @import url(font.css);
+
+        * {font-family: 'MapoPeacefull';}
+
+        article{width: 360px;}
+        body{width: 100vw; height: 100vh; display: flex; justify-content: center; 
+                align-items: center; overflow: hidden;}
+        /*로고*/  
+        header{text-align: center; margin-bottom: 50px;}
+        header img{width: 253.32px; height: 56.82px;}
+        /*로그인*/
+        #login{width: 364; height: 535; overflow: hidden;}
+        #suv{font-size: 1.25rem; color: #373F57; }
+        #suv2{font-size: 1rem; color: #777777;}
+        /*개인,기업*/
+        .tab_member_type{list-style: none; display: flex; margin-bottom: 0px; justify-content: space-between;}     
+        .a_per{ width: 140px; height: 40px; text-decoration: none; 
+                display: flex; float: left; margin-left: -32px;
+                background-color: #A5E374; color: white; justify-content: center;
+                align-items: center; border-radius: 10px; 
+                margin-bottom: 20px; font-size: 1rem; font-weight: bold;}
+        .a_per:hover{background-color: #A5E374; color: white;}        
+        .a_com{ width: 140px; height: 40px; text-decoration: none;
+                display: flex; background-color: #F0F0F0; border-radius: 10px;
+                color: #858585; justify-content: center; align-items: center;
+                font-size: 1rem; font-weight: bold;}
+        .a_com:hover{background-color: #A5E374; color: white;}
+        /*loginAPI*/
+        #loginAPI{display: flex; justify-content: center;}
+        #loginAPI-Pt,#loginAPI-Pt>span>a{ font-size: 0.6rem; text-decoration: none; color: #777777;}
+        #loginAPI>div{width: 200px; display: flex; justify-content: space-between;}
+        #loginAPI>div>a>img{width: 40px; height: 40px;}
+        #loginAPI-Pt{display: flex; justify-content: center; margin-top: 30px;}
+        /*아이디 비밀번호*/
+        #join1{text-decoration: none; color: #A5E374; font-weight: bold;}
+        #join2{margin-top: 20px;}
+        #join2 > a{text-decoration: none; color: #373F57; margin-right: 20px;}
+        .id-input-box{width: 280px; height: 50px; border: 1px solid #AFAFAF; border-bottom: none; display: flex; align-items: center;}
+        .id-input-box > input, .pw-input-box > input{width: 280px;}
+        .pw-input-box{width: 280px; height: 50px; border: 1px solid #AFAFAF; display: flex; align-items: center;}
+        #inputchang{float: left;}
+        .btn-login{width: 80px; height: 100px; color: white; background-color: #A5E374; border: none; font-weight: bold;}
+        input{outline: unset; border: none; height: 80%; margin-left: 10px;}

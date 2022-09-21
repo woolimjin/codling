@@ -1,0 +1,2 @@
+127.0.0.1 - - [21/Sep/2022:20:10:47 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:20:10:48 +0900] "GET /codling_JSP/servlet/codling.controller.corporation.CorpInfoServlet HTTP/1.1" 404 881

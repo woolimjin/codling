@@ -1,0 +1,252 @@
+@import url(font.css);
+
+* {font-family: 'MapoPeacefull'; color: #373F57; box-shadow: none !important;}
+body{width:100vw; margin: 0 auto;}
+/* body */
+ header{margin: 0 auto; width: 1220px;}
+ a{text-decoration: none;}
+ #menu-bar{width: 1220px; margin: 0 auto; margin-top: 25px;  display: flex; justify-content: space-between; align-items: center;}
+/*header*/
+#menu-bar>div{width: 131.5px; height: 5px;}
+#logoimg{width: 253.32px; height: 56.82px;}
+#profilelogo{width: 35px; height: 35px; margin: 5px;}
+#profile-box{display: flex; align-items: center; height: 56.81px; color: #373F57; font-weight: bold;}
+#mename{position: relative; top:-15px;}
+#hover-box{height: 45px; white-space:nowrap;}
+#hover-box:hover{background-color: #e6e6e6; border-radius: 30px; cursor: pointer;}
+#profile-hover{border: 1px solid #cecece; width: 150px; height: 160px; float: right; margin-right: -10px;
+    border-radius: 10px;}
+#profile-hover>ul{margin-top: 0px;}
+#profile-hover>ul>li>a{text-decoration: none; color: #656978; font-size: 1rem; display: inline-block;
+    width: 150px; height: 40px; display: flex; align-items: center; margin-left: -40px;
+    margin-top: 10px; font-weight: bold;}
+#profile-hover>ul>li>a>span{ margin-left: 10px;}
+#mypage>a:hover{background-color: #e6e6e6;}
+#resume>a:hover{background-color: #e6e6e6;}
+#logout>a:hover{background-color: #e6e6e6;}
+ul{list-style: none;}
+ /* section */
+ section{width: 1220px; margin: 0 auto; margin-top: 150px;}
+ /* section>h1{font-weight: bold; color: #373F57; margin-top: 30px;} */
+
+ /*이력서 제목 작성란*/
+ .resume_title {width: 1220px; height: 50px; outline: unset; border: 2px solid #A5E374; font-size: x-large; border-radius: 10px;}
+ /* inputbox */
+ #inputbox{width: 350px; margin-left: 50px; margin-top: 20px;}
+ .infoForm{float: right; width: 250px; height:22px; outline: unset;}
+
+
+ /* 학력사항 */
+ .eduLevelbox{width: 1220px; height: 385px; background-color: #F8F8F8; margin-bottom: 50px; border-radius: 10px;}
+ .eduLevelbox p{font-size: 17px; margin-left: 10%;}
+ .eduLevelbox span{font-weight: bold;}
+ #problem_list a {text-decoration: none;}
+ .edu_level_info{width: 680px; margin-left: 100px; padding-top: 5px; margin-top: -30px;}
+ .edu_level_info p {font-size: 16px; font-weight: bold; } 
+ .edu_select {width: 297px; height: 40px; float: right; margin-right: 60px; margin-bottom: 7px;
+            border: solid 1.5px #858585; border-radius: 5px; font-size: 15px; color: #373F57; font-weight: normal;}
+ .infoForm2{float: right; width: 290px; height:35px; margin-right: 60px; margin-bottom: 7px;
+            outline: unset; border: solid 1.5px #858585; border-radius: 5px; font-size: 15px; color: #373F57; font-weight: normal;}
+ #major {margin-top: -10px;}
+            #qqq2{display: flex; width: 214%; font-weight: normal;}
+ #qqq2 span:nth-child(1){width: 9%; margin-right: 8.3%;}
+ .qqqtext {font-size: xx-large; font-weight: normal; margin-left: 1%; margin-right: 1%; text-align: center;}
+ #start {height:35px; border: solid 1.5px #858585; border-radius: 5px; font-size: 15px; margin-right: 60px; font-size: 15px; color: #373F57; font-weight: normal;}
+ #qqq2 input{flex-basis: 117.2px; margin: 0; font-size: 15px; color: #373F57; font-weight: normal;}
+ /* #qqq{display: flex; width: 101%;}
+ #qqq span:nth-child(1){width: 10%; margin-right: 147px;}
+ #qqq input{width: 117px; margin-left: 1%; margin-right: 1%;}*/
+ .edu_select2 {width: 90px; height: 38px; float: right; margin-right: 60px; margin-left: 5px; 
+    border: solid 1.5px #858585; border-radius: 5px; font-size: 15px; color: #373F57; font-weight: normal;}
+ #grade{display: flex; width: 100%; margin-left: 67px; font-weight: normal; visibility: visible;}
+ #grade span:nth-child(1){width: 20%; margin-right: 20px;}
+ #grade input{width: 100px; height:33px; border: solid 1.5px #858585; border-radius: 5px; font-size: 15px; color: #373F57; font-weight: normal;}
+ .gradetext {font-size: x-large; font-weight: lighter; margin-left: 2%; margin-right: 2%; padding-bottom: -10px;}
+ #insertgrade {margin-left: 95px; font-size: 15px; color: #373F57; font-weight: normal;}
+ .list_file_tag{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    display: none;
+    }
+ /* 학력정보 추가 버튼 */
+ .edu_add {background-color: #A5E374; color: white;
+    -webkit-appearance: none; -moz-appearance: none; appearance: none; 
+    margin-bottom: -40px; margin-left: 1130px; margin-right: 10px; padding: 7px;
+    font-family: 'Gosanja'; font-size:medium; font-weight: 400; text-align: center;
+    text-decoration: none; display: inline-block; width: 80px; height: 40px; border: none; border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer; display: block;}
+.edu_add:active {box-shadow: none;}
+.edu_add:hover {background-color: #A5E374; color: white;}
+/* 학력정보 삭제 버튼*/
+.edu_del {background-color: #D6D6D6; color: #858585;
+    -webkit-appearance: none; -moz-appearance: none; appearance: none; 
+    margin-left: 1130px; margin-top: 10px; padding: 7px;
+    font-family: 'Gosanja'; font-size:medium; font-weight: 400; text-align: center;
+    text-decoration: none; display: inline-block; width: 80px; height: 40px; border: none; border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;}
+.edu_del:active {box-shadow: none;}
+.edu_del:hover {background-color: #A5E374; color: white;}
+
+#description{display: block; position:relative; top: -173px; right: -300px; font-size: 0.95rem !important; color: #8a8c95 !important;}
+/*보유기술스택*/
+#stackbox {width: 1220px; height: 230px; background-color: #F8F8F8; padding: 10px 0; margin-bottom: 50px; border-radius: 10px;}
+#stack_box {padding-top: 5px;}
+#stackbox h3 {margin-left: 20px;}
+#keyword{width: 300px;}
+#stacks{display: flex; height: 50px; margin: 30px 0; flex-flow: row wrap; width: 1150px !important;}
+#stack{width: 1050px; height: 37px; margin-left: 80px; font-size: 1.2rem; border: solid 1.5px #858585; border-radius: 5px; outline: unset;}
+.st{display: flex; margin-right: 10px; background-color: #A5E374; border-radius: 50px; padding: 0 12px; display: flex; align-items: center; height: 40px;margin-top: -40px;
+    margin-bottom: 45px}
+.stack{margin-right: 10px; display: flex; color: white; font-size: 1.1rem; font-weight: lighter;}
+#suggest{width: 1017px; max-height: 250px; margin-left: 80px; background-color: white; overflow-y: scroll; box-shadow: 0 4px 8px 0 rgb(20 20 20 / 2%), 4px 16px 24px 0 rgb(20 20 20 / 12%) !important;}
+.stackli {margin: 10px 0; font-size: larger;}
+#stc_box{display: flex;}
+#stc_box2{width: 50px}
+
+ /* 경력사항 */
+ #experiencebox{width: 1220px; height: 650px; background-color: #F8F8F8; margin-bottom: 50px; border-radius: 10px;}
+ #experiencebox hr {border: 1px dashed #858585;}
+ #ex_info_box{width: 450px; margin-left: 150px;}
+ #ex_info_box p {font-size: 17px; font-weight: bold; margin-left: 17px;}
+ .infoForm4{width: 290px; height: 35px; outline: unset; margin-left: 181px; margin-bottom: -10px; 
+            border: solid 1.5px #858585; border-radius: 5px; font-size: 15px; color: #373F57;}
+ #position{margin-left: 168.8px; margin-top: -15px;}
+ #department{margin-left: 178px;}
+ #qqq{display: flex; width: 101%;}
+ #qqq span:nth-child(1){width: 9%; margin-right: 157px;}
+ #qqq input{width: 112.8px; margin-left: 1%; margin-right: 1%; font-size: 15px; color: #373F57;}
+
+ .list_file_tag{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    display: none;
+    }
+    .ex_detail {width: 900px; height: 200px; margin-top: 23px; font-size: 15px; color: #373F57;}
+/* 경력사항 추가 버튼 */
+.ex_add {background-color: #A5E374; color: white;
+    -webkit-appearance: none; -moz-appearance: none; appearance: none; 
+    margin-bottom: 20px; float: right; margin-right: 10px;
+    font-family: 'Gosanja'; font-size:medium; font-weight: 400; text-align: center;
+    text-decoration: none; display: block; width: 80px; height: 40px; border: none; border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;}
+.ex_add:active {box-shadow: none;}
+.ex_add:hover {background-color: #A5E374; color: white;}
+/* 경력사항 삭제 버튼 */
+.ex_del {background-color: #D6D6D6; color: #858585;
+    -webkit-appearance: none; -moz-appearance: none; appearance: none; 
+    margin-left: 1130px; margin-top: 10px; padding: 7px;
+    font-family: 'Gosanja'; font-size:medium; font-weight: 400; text-align: center;
+    text-decoration: none; display: inline-block; width: 80px; height: 40px; border: none; border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;}
+.ex_del:active {box-shadow: none;}
+.ex_del:hover {background-color: #A5E374; color: white;}
+
+ /* 자격증내역 */
+ #licensebox{width: 1220px; height: 330px; background-color: #F8F8F8; margin-bottom: 50px; border-radius: 10px;}
+ #licensebox table {margin-left: 167px; width: 552px;}
+ #licensebox p {font-size: 17px; font-weight: bold; }
+ .infoForm3{float: right; width: 290px; height: 35px; outline: unset; 
+            border: solid 1.5px #858585; border-radius: 5px; font-size: 15px; color: #373F57;}
+ .license_select {width: 296px; height: 40px; border: solid 1.5px #858585; border-radius: 5px; float: right; font-size: 15px; color: #373F57;}
+ #passday{width: 292px; font-size: 15px; color: #373F57;}
+ /* 자격증 추가 버튼 */
+.license_add {background-color: #A5E374; color: white;
+    -webkit-appearance: none; -moz-appearance: none; appearance: none; 
+    margin-bottom: 2px; float: right; margin-right: 10px; padding: 7px;
+    font-family: 'Gosanja'; font-size:medium; font-weight: 400; text-align: center;
+    text-decoration: none; display: block; width: 80px; height: 40px; border: none; border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;}
+.license_add:active {box-shadow: none;}
+.license_add:hover {background-color: #A5E374; color: white;}
+/* 자격증 삭제 버튼 */
+.license_del {background-color: #D6D6D6; color: #858585;
+    -webkit-appearance: none; -moz-appearance: none; appearance: none; 
+    margin-left: 1130px; margin-top: 10px; padding: 7px;
+    font-family: 'Gosanja'; font-size:medium; font-weight: 400; text-align: center;
+    text-decoration: none; display: inline-block; width: 80px; height: 40px; border: none; border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;}
+
+ /* 포트폴리오 */
+ #portfoliobox{width: 1220px; height: 310px; background-color: #F8F8F8; margin-bottom: 50px; border-radius: 10px;}
+ .portfolio_title {width: 200px; height: 35px; border: none; border-radius: 5px; font-size: 15px; margin-left: 40px; color: #373F57; margin-top: -20px;}
+ .infoForm5{float: right; width: 250px; height:22px; outline: unset; border: none; }
+ .filebox{margin-left: 100px;}
+ .filebtn{background-color: #A5E374; color: white; border: none; width: 80px; height: 30px; border-radius: 10px;
+        margin-left: 40px; cursor: pointer;}
+ .urlbtn{background-color: #A5E374; color: white; border: none; width: 80px; height: 30px; border-radius: 10px;
+        margin-left: 40px; cursor: pointer;}
+ .url{width: 290px; height: 35px; border: none; border-radius: 5px; font-size: 15px; margin-left: 40px; color: #373F57;}
+ .filebtn2{background-color: #A5E374; color: white; border: none; width: 80px; height: 30px; border-radius: 10px;
+    margin-left: 40px;}
+.urlbtn2{background-color: #D6D6D6; color: #858585; border: none; width: 80px; height: 30px; border-radius: 10px;
+    margin-left: 10px;}
+.url{margin-top: 10px; margin-left: 20px;}
+.choose_file>span{position: relative; top: -3px; color: white;}
+#deepcontents{margin-left: 40px; border:none; width: 1140px; height: 90px;
+	 margin-top: 10px; font-size: 1.1rem}
+#portfolio_info{display: none !important;}
+  /* 개인첨부파일 */
+  #portfoliobox2 {width: 1220px; height: 310px; background-color: #F8F8F8; margin-bottom: 50px; border-radius: 10px;}
+  #portfoliobox2 h3 {padding: 20px;}
+  #portfoliobox2 label {margin-left: 40px;}
+  .choose_file {background-color: #A5E374; width: 65px; border-radius: 10px; cursor: pointer;
+             padding-top: 5px; padding-left: 10px; padding-right: 10px;  padding-bottom: 5px;
+             color: white; margin-left: 40px; margin-top: -5px; margin-bottom: 10px; font-size: 14px;
+             position: relative; top: -3px;}
+  .filename::file-selector-button {display: none;}
+  .filename {background-color: white; border-radius: 10px; padding: 5px 10px; margin-left: 5px; color: #656978;
+  	position: relative; top: -4px}
+  .getfilename{border: none; background-color: #F8F8F8; width: 800px;}
+  .uploadfile{margin-left: 40px}
+  /* 포트폴리오 추가 버튼 */
+.portfolio_add {background-color: #A5E374; color: white;
+    -webkit-appearance: none; -moz-appearance: none; appearance: none; 
+    margin-bottom: 2px; float: right; margin-right: 10px; padding: 7px;
+    font-family: 'Gosanja'; font-size:medium; font-weight: 400; text-align: center;
+    text-decoration: none; display: block; width: 80px; height: 40px; border: none; border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;}
+.portfolio_add:active {box-shadow: none;}
+.portfolio_add:hover {background-color: #A5E374; color: white;}
+/* 포트폴리오 삭제 버튼 */
+.portfolio_del {background-color: #D6D6D6; color: #858585;
+    -webkit-appearance: none; -moz-appearance: none; appearance: none; 
+    margin-left: 1130px; margin-top: 10px; padding: 7px;
+    font-family: 'Gosanja'; font-size:medium; font-weight: 400; text-align: center;
+    text-decoration: none; display: inline-block; width: 80px; height: 40px; border: none; border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;}
+.portfolio_del:active {box-shadow: none;}
+
+/*이력서 완료(제출) 버튼*/
+ .resume_submit {-webkit-appearance: none; -moz-appearance: none; appearance: none; margin: 0; padding: 0.5rem 1rem;
+    font-family: 'Gosanja'; font-size: 1.5rem; font-weight: 500; text-align: center;
+         text-decoration: none; display: inline-block; width: 150px; height:60px; border: none; border-radius: 10px;
+         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); margin-bottom: 10vh;
+         cursor: pointer; background-color: #A5E374; color: white; margin-top: 30px;}
+ .resume_submit:active {box-shadow: none; background-color: #D6D6D6;}
+ .resume_submit:hover { color: 858585;}
+#submit{display: flex; justify-content: center;}
+
+/*file*/
+.file_box{ margin-top: 20px}
+.url_box{margin-left: 20px; display: block;}
+

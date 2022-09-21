@@ -1,0 +1,42 @@
+@import url(font.css);
+
+* {font-family: 'MapoPeacefull';}
+
+body {margin: 0; padding: 0;}
+a {text-decoration: none; }
+
+/* header */
+header {width: 1000px; margin: 110px auto 0; display: flex; justify-content: space-between; align-items: center;}
+header div {width: 80px;}
+header #logo {width: 253.32px; height: 56.82px;}
+header #logIn {width: 80px; height: 33.19px; border: 3px solid #A5E374; border-radius: 5px; background-color: white; color: #8D8D8D;
+                font-weight: bold; font-size: 1.05rem;}
+#logIn:hover {background-color: #A5E374 ; color: white;}
+
+/* section */
+section {width: 1000px; height: 74vh; display: flex; align-items: center; margin: auto;}
+article {width: 100%; margin: 0 auto;}
+.title {font-size:30px; margin: 0 0 20px 20px; color: #373F57;}
+.txt {font-size: 0.85rem; color: #777777;}
+.find_account {display: flex; justify-content: space-between; margin: 40px 30px 0 30px; color: #373F57;}
+.find_account ul {margin: 0; padding: 0; width: 48.5%;}
+.indi, .corp{font-size: 2em;}
+.identity {height: 70px; list-style: none; text-align: center; padding-top: 30px;
+           border-width: 1px; border-style: solid solid none; border-color: #AFAFAF;
+           border-top-left-radius: 5px; border-top-right-radius: 5px;}
+.find_account>.find_link:last-child {width: 99.7%;}
+.find_link {margin: 0; padding: 0; width: 99.58%; height: 52px; list-style: none; border: 1px solid #AFAFAF;
+            border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; display: flex; justify-content: space-between; align-items: center;}
+.find_account a {width: 50%; height: 52px; line-height: 52px; color: #000000; display: inline-block; text-align: center; vertical-align: center;}
+#find_id {border-right: 1px solid #AFAFAF; color: #373F57;}
+#find_pw {color: #373F57;}
+
+#find_id:hover {background-color: #A5E374; border-bottom-left-radius: 3px; color: white;}
+#find_pw:hover {background-color: #A5E374; border-bottom-right-radius: 3px; color: white;}
+
+/*footer*/
+footer{ display: flex; height: 80px; background-color: #F0F0F0; border-top: #dddddd solid 0.1rem;
+    color: #BEBEBE; font-size: 0.8rem; justify-content: center; align-items: center;}
+footer a:hover{text-decoration: underline; color: #BEBEBE;}
+footer img{margin: 0 2rem; }
+footer a{color: #BEBEBE}

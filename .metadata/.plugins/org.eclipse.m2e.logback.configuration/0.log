@@ -1,0 +1,63 @@
+2022-09-21 20:04:41,729 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-21 20:05:03,441 [Worker-7: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-21 20:05:04,580 [Worker-7: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: codling_JSP:codling_JSP:0.0.1-SNAPSHOT @ C:\Users\dnwls\OneDrive\πŸ≈¡ »≠∏È\codling_wj\codling\pom.xml.
+2022-09-21 20:05:05,856 [Worker-7: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /codling/src/main/java
+2022-09-21 20:05:05,859 [Worker-7: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /codling/src/main/java overlaps with sources folder /codling/src/main/java
+2022-09-21 20:05:05,867 [Worker-7: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /codling/src/test/java
+2022-09-21 20:05:09,290 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:05:09,297 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-21 20:05:09,301 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:05:09,302 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dnwls\OneDrive\πŸ≈¡ »≠∏È\codling_wj\codling\src\test\resources
+2022-09-21 20:05:11,600 [Worker-7: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 8 sec
+2022-09-21 20:05:11,997 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:05:12,016 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-21 20:05:12,018 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:05:12,019 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dnwls\OneDrive\πŸ≈¡ »≠∏È\codling_wj\codling\src\test\resources
+2022-09-21 20:05:17,187 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:05:17,189 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-21 20:05:17,191 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:05:17,192 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dnwls\OneDrive\πŸ≈¡ »≠∏È\codling_wj\codling\src\test\resources
+2022-09-21 20:06:10,804 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:06:10,821 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-21 20:06:10,824 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:06:10,825 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dnwls\OneDrive\πŸ≈¡ »≠∏È\codling_wj\codling\src\test\resources
+2022-09-21 20:06:10,826 [Worker-0: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of codling
+2022-09-21 20:06:10,828 [Worker-0: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for codling
+2022-09-21 20:06:10,847 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2022-09-21 20:06:10,863 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:06:26,077 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:06:26,089 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-21 20:06:26,090 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:06:26,091 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dnwls\OneDrive\πŸ≈¡ »≠∏È\codling_wj\codling\src\test\resources
+2022-09-21 20:07:42,319 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:07:42,336 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-21 20:07:42,337 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:07:42,339 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dnwls\OneDrive\πŸ≈¡ »≠∏È\codling_wj\codling\src\test\resources
+2022-09-21 20:07:46,620 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:07:46,637 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-21 20:07:46,639 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:07:46,641 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dnwls\OneDrive\πŸ≈¡ »≠∏È\codling_wj\codling\src\test\resources
+2022-09-21 20:07:52,369 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:07:52,385 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-21 20:07:52,387 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:07:52,388 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dnwls\OneDrive\πŸ≈¡ »≠∏È\codling_wj\codling\src\test\resources
+2022-09-21 20:07:53,123 [Worker-21: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for codling
+2022-09-21 20:07:54,231 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:07:54,233 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-21 20:07:54,235 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:07:54,236 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dnwls\OneDrive\πŸ≈¡ »≠∏È\codling_wj\codling\src\test\resources
+2022-09-21 20:07:54,237 [Worker-18: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of codling
+2022-09-21 20:07:54,237 [Worker-18: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for codling
+2022-09-21 20:07:54,260 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:09:06,246 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:09:06,248 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-21 20:09:06,249 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:09:06,250 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dnwls\OneDrive\πŸ≈¡ »≠∏È\codling_wj\codling\src\test\resources
+2022-09-21 20:09:15,390 [Worker-15: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for codling
+2022-09-21 20:09:15,803 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:09:15,806 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-21 20:09:15,807 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-09-21 20:09:15,809 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dnwls\OneDrive\πŸ≈¡ »≠∏È\codling_wj\codling\src\test\resources
+2022-09-21 20:09:15,810 [Worker-23: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of codling
+2022-09-21 20:09:15,810 [Worker-23: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for codling
+2022-09-21 20:09:15,862 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!

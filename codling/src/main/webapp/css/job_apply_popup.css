@@ -1,0 +1,159 @@
+@charset "UTF-8";
+@import url(font.css);
+
+* {
+    color: #373F57;
+    font-family: 'MapoPeacefull';
+}
+
+body{
+    width: 1500px;
+    height: 720px;
+    overflow: hidden;
+}
+
+/*전체 div*/
+.container{
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+/*로고 이미지*/
+.logo{
+    margin-left: 35vw;
+    width: 253px;
+    height: 56px; 
+    object-fit: contain;
+    margin-bottom: 2rem;
+}
+
+.topInside{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.work_title{
+    font-size: 2rem;
+    font-family: 'MapoPeacefull';
+    font-weight: bold;
+}
+
+.containerTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    margin-right: 1rem;
+}
+
+.containerBot{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 10rem;
+    height: auto;
+    background-color: rgba(0, 0, 0,0.1);
+    margin-bottom: 1rem;
+    justify-content: center;
+    text-align: center;
+    margin-left: 2rem;
+    border-radius: 1rem;
+}
+
+.containerBot :nth-child(1){
+    font-family: 'MapoPeacefull';
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: rgb(80, 181, 0);
+    margin-top: 1rem;
+    text-align: left;
+    margin-left: 0.5rem;
+}
+.clTitle{
+    font-weight: bolder;
+    font-size: 1.3rem;
+    text-align: left;
+    margin-left: 0.5rem;
+}
+
+.clContent{
+    font-family: 'MapoPeacefull';
+    font-size: 1.1rem;
+    text-align: left;
+    margin-left: 0.5rem;
+}
+
+input[type="button"]{
+    display: grid;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    background-color: #A5E374;
+    border-radius: 0.5rem;
+    color: #f2f2f2;
+    font-size: 2.1rem;
+    font-weight: lighter;
+    align-items: center;
+    vertical-align: middle;
+    margin-left: 45%;
+    font-weight: bold;
+}
+
+input[type="button"]:hover{
+    background-color: rgb(80, 181, 0);
+}
+
+.slider_container{
+    margin: 0;
+    padding: 0;
+}
+
+.form-select{
+    margin-top: 1rem;
+}
+
+.prev{
+    transform: scaleX(-1);
+}
+
+.slick-arrow{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor : pointer;
+}
+
+.slick-prev{
+    transform: scaleX(-1);
+    right: 2.5vw;
+    bottom: -10rem;
+    
+}
+
+.slick-next{
+    position: relative;
+    margin-left: 82rem;
+    bottom: 10rem;
+}
+
+label{
+    position: fixed;
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: #A5E374;
+    margin-left: 4vw;
+    font-weight: 900;
+}
+
+label:hover{
+    color: #50b500;
+}
+
+
+.containerBot input[type=radio]{
+    display: none;
+}
+

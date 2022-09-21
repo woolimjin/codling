@@ -1,0 +1,47 @@
+@import url(font.css);
+
+* {font-family: 'MapoPeacefull';}
+
+body {margin: 0; padding: 0;}
+a {text-decoration: none; }
+
+/* header */
+header {width: 1000px; margin: 110px auto 0; display: flex; justify-content: space-between; align-items: center;}
+header div {width: 80px;}
+header #logo {width: 253.32px; height: 56.82px;}
+header #logIn {width: 80px; height: 33.19px; border: 3px solid #A5E374; border-radius: 5px; background-color: white; color: #8D8D8D;
+                font-weight: bold; font-size: 1.05rem;}
+#logIn:hover {background-color: #A5E374 ; color: white;}
+
+/* section */
+section {width: 1000px; height: 800px; display: flex; justify-content: center; align-items: center; margin: auto;}
+article {width: 100%;}
+.title {font-size:30px; margin: 0 0 20px 20px; color: #373F57;}
+.txt {color: #373F57; text-align: center; padding: 50px 0 50px;}
+.chk {width: 75%; height: 50px; display: flex; justify-content: space-around; margin: auto;}
+
+#btn_phone {width: 200px; height: 100%; font-size: 18px; background-color: #A5E374; color: white; 
+            display: flex; align-items: center; justify-content: center; border: 2px solid #87cc52; border-radius: 5px;}
+#btn_email {width: 200px; height: 100%; font-size: 18px; color: #373F57; display: flex; align-items: center; justify-content: center; border: 2px solid #929292; border-radius: 5px;}
+
+/* 휴대폰 번호로 찾기 */
+#chk_phone {width: 80%; margin: 30px auto 0; padding-top: 5px; border: 1px solid #929292; border-radius: 5px;}
+#chk_phone>b {color: #373F57; font-size: 1rem; margin-left: 5px;}
+.input {display: grid; grid-template-columns: 150px 270px 100px; gap: 30px 0; justify-content: center; margin: 40px 0 40px 40px;}
+.item{line-height: 35px;}
+.item>b, .item>input {font-size: 1.2em;}
+#chk_phone>form>div>div:nth-child(6) {font-size: 12px;}
+#chk_phone #chk_phone_ok {width: 180px; height: 55px; font-size: large; font-weight: 500; color: #373F57; background-color: #A5E374; border: none; border-radius: 10px; margin-bottom: 20px; cursor: pointer;}
+#chk_phone>form>div:nth-child(2){text-align: center;}
+
+/* 이메일 주소로 찾기 */
+#chk_email {width: 80%; margin: 30px auto 0; padding-top: 5px; display: none; border: 1px solid #929292; border-radius: 5px;}
+#chk_email>b {color: #373F57; font-size: 1rem; margin-left: 5px;}
+#chk_email>form>div>div:nth-child(6) {font-size: 12px;}
+#chk_email #chk_email_ok {width: 180px; height: 55px; font-size: large; font-weight: 500; color: #373F57; background-color: #A5E374; border: none; border-radius: 10px; margin-bottom: 20px; cursor: pointer;}
+#chk_email>form>div:nth-child(2){text-align: center;}
+
+.chk_btn {width: 100px; height: 30px; font-weight: 600; margin-top: 3px; color: rgb(97, 97, 97); background-color: #D9D9D9; border: none; border-radius: 5px; cursor: pointer;}
+
+/* footer */
+footer {height: 200px; text-align: center; background-color: #A5E374;}

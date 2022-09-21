@@ -1,0 +1,77 @@
+@import url(font.css);
+
+* {font-family: 'MapoPeacefull';}
+
+header{margin: 0 auto; width: 1220px;}
+#menu-bar{width: 1220px; margin: 0 auto; margin-top: 25px;  display: flex; justify-content: space-between; align-items: center;}
+/*header*/
+#box_{width: 150px;}
+#menu-bar>div{height: 5px;}
+#logoimg{width: 253.32px; height: 56.82px;}
+#profilelogo{width: 35px; height: 35px; margin: 5px;}
+#profile-box{display: flex; align-items: center; height: 56.81px; color: #373F57; font-weight: bold;}
+#mename{position: relative; top:0px;}
+#hover-box{height: 45px; white-space: nowrap;}
+#hover-box:hover{background-color: #e6e6e6; border-radius: 30px; cursor: pointer;}
+#profile-hover{border: 1px solid #cecece; width: 150px; height: 160px; float: right; margin-right: 15px;
+    border-radius: 10px;}
+#profile-hover>ul{margin-top: 0px;}
+#profile-hover>ul>li>a{text-decoration: none; color: #656978; font-size: 1rem; display: inline-block;
+    width: 150px; height: 40px; display: flex; align-items: center; margin-left: -32px;
+    margin-top: 10px; font-weight: bold;}
+#profile-hover>ul>li>a>span{ margin-left: 10px;}
+#mypage>a:hover{background-color: #e6e6e6;}
+#resume>a:hover{background-color: #e6e6e6;}
+#logout>a:hover{background-color: #e6e6e6;}
+ul{list-style: none;}
+/*section*/
+section{width: 1220px; margin: 0 auto; margin-top: 150px;}
+#resume>a{text-decoration: none;}
+.resumemg{width: 1220px; height: 270px; background: rgba(165, 227, 116, 0.3); border-radius: 10px;
+    display: flex; padding-left: 20px; padding-top: 20px; margin-bottom: 20px}
+#resume>h1{font-size: 2.1rem; font-weight: bold; color: #373F57;
+    margin-top: -30px; margin-bottom: 60px;}
+.resumemgbox{width: 1220px; height: 110px; margin-left: 50px;}
+.resumemgbox>p>span{font-size: 1.3rem; color: #50B500; font-weight: bold;}
+.resumemgbox2>p>span{font-weight: bold; font-size: 1.5rem; color: #373F57;}
+.resumemgbox2>table{font-weight: bold; font-size: 1rem; color: #373F57; width: 800px;}
+/*지원 현황 button*/
+#applicant_status{background-color: #A5E374; color: white; float: right; margin-top: -50px; margin-right: 10px;
+        width: 80px; height: 40px; border: none; border-radius: 10px; justify-content: flex-end; z-index: 1; 
+        text-decoration: none; display: flex; justify-content: center; align-items: center;}
+#applicant_status:hover {background-color: #8bdf4b;}
+
+/*공고 작성button*/
+.btn-res{display: flex; justify-content: center; width: 100vw; margin-top: 35px;}
+#btn-res{width: 200px; height: 60px; border-radius: 15px; color: white; font-size: 1.3rem;
+    background-color: #A5E374; border: none; font-weight: bold;}
+#btn-res:hover {background-color: #8bdf4b;}
+
+/*자기소개서*/
+#self{margin-top: 50px;}
+#self>a{text-decoration: none;}
+#self>h1{font-size: 2.1rem; font-weight: bold; color: #373F57;
+    margin-bottom: 60px;}
+.selfbox_in_del{width: 1220px; display: flex; justify-content: right;}
+.selfbox_in_del>input{width: 80px; height: 40px; margin-top: -50px; border-radius: 10px;}
+#self_delbtn{margin-right: 15px; background-color: #e6e6e6; color: #858585; font-size: 1rem; font-weight: bold;
+    border: none;}
+#self_delbtn:hover{background-color: #A5E374; color: white;}
+.chbtn-box{float: right; margin-top: -30px; margin-right: 10px;}
+.chbtn-box>input{width: 80px; height: 40px; border: none; border-radius: 10px;}
+#update{background-color: #A5E374; color: white;}
+#update:hover {background-color: #8bdf4b;}
+#delete{background-color: #D6D6D6; color: #858585;}
+#delete:hover{background-color: #c6c6c6;}
+.self_box{width: 1220px; height: 170px; background: rgba(165, 227, 116, 0.3); border-radius: 10px;
+    display: flex; justify-content: left; align-items: center;}
+#self_introduction{width: 900px; height: 110px; margin-left: 50px;}
+#self_introduction>p>span{font-size: 1.3rem; color: #50B500; font-weight: bold;}
+.self_introductionbox{font-weight: bold; font-size: 1.5rem; color: #373F57;}
+/*작성button*/
+.btn-sel{display: flex; justify-content: center; width: 100vw; margin-top: 35px;}
+#btn-sel{width: 200px; height: 60px; border-radius: 15px; color: white; font-size: 1.3rem;
+    background-color: #A5E374; border: none; font-weight: bold;}
+#btn-sel:hover {background-color: #8bdf4b;}
+/*footer*/
+footer{width: auto; height: 240px;}

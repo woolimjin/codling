@@ -1,0 +1,118 @@
+@import url(font.css);
+
+* {font-family: 'MapoPeacefull';}
+     
+header{margin: 0 auto; width: 1220px;}
+a{text-decoration: none;}
+#menu-bar{width: 1220px; margin: 0 auto; margin-top: 25px;  display: flex; justify-content: space-between; align-items: center;}
+/*header*/
+#menu-bar>div{width: 131.5px; height: 5px;}
+#logoimg{width: 253.32px; height: 56.82px;}
+#profilelogo{width: 35px; height: 35px; margin: 5px;}
+#profile-box{display: flex; align-items: center; height: 56.81px; color: #373F57; font-weight: bold;}
+#hover-box:hover{background-color: #e6e6e6; border-radius: 30px; cursor: pointer;}
+#profile-hover{border: 1px solid #cecece; width: 150px; height: 160px; float: right; margin-left: 10px;
+    border-radius: 10px;}
+#profile-hover>ul>li>a{text-decoration: none; color: #656978; font-size: 1rem; display: inline-block;
+    width: 148px; height: 40px; display: flex; align-items: center; margin-left: -32px;
+    margin-top: 10px; font-weight: bold;}
+#profile-hover>ul>li>a>span{ margin-left: 10px;}
+#mypage>a:hover{background-color: #e6e6e6;}
+#resume>a:hover{background-color: #e6e6e6;}
+#logout>a:hover{background-color: #e6e6e6;}
+ul{list-style: none;}
+/*section*/
+section{width: 1220px; margin: 0 auto; margin-top: 100px;}
+
+/* 공고 지원 현황 */
+#applyStatus>h1{font-size: 2.1rem; font-weight: bold; color: #373F57; margin-bottom: 40px;}
+.applybox{display: flex; justify-content: center;}
+.applys{overflow: hidden;}
+.apply{position: relative; display: flex; padding: 0; margin-right: 0px !important;}
+.apply_item{display: flex;}
+.leftArrow,.rightArrow{width: 90px; height: 200px;  border: none; background-color: white; cursor: pointer;}
+.leftArrow>img,.rightArrow>img{width: 100px; height: 100px;}
+.app{width: 220px; height: 100%; background-color: rgba(165, 227, 116, 0.3); margin: 0 20px; border-radius: 5px;}
+.app_content{padding: 15px; color: rgba(55, 63, 87, 1)}
+.apply_title{font-size: 1.5rem; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.app_content>p:first-child{font-weight: bold; color: #50B500; margin: 0;}
+.viewInfo{height: 40px; background-color: rgba(165, 227, 116, 0.5); display: flex; justify-content: space-around; 
+    border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;}
+.viewInfo a{width: 100%; color: #373F57; font-size: large; font-weight: bold; text-align: center; line-height: 40px;}
+.viewInfo a:first-child{border-right: 1px solid white;}
+#btn_bar{display: flex; justify-content: center; margin-bottom: 40px;}
+.apply_bar:first-child{background-color: #A5E374;}
+.apply_bar{width: 50px; height: 10px; margin: 10px 10px; background-color: #D9D9D9; border-style: none; border-radius: 5px;}
+
+/* 이력서 관리 */
+.resumemg{width: 1220px; height: 170px; background: rgba(165, 227, 116, 0.3); border-radius: 10px;
+    display: flex; justify-content: left; align-items: center;}
+#resume>h1{font-size: 2.1rem; font-weight: bold; color: #373F57;
+    margin-bottom: 40px;}
+.resumemgbox{width: 900px; height: 110px; margin-left: 50px;}
+.resumemgbox>p>span{font-size: 1.3rem; color: #50B500; font-weight: bold;}
+.resumemgbox2{font-weight: bold; font-size: 1.5rem; color: #373F57;}
+/*작성button*/
+.btn-res{display: flex; justify-content: center; width: 100vw; margin-top: 35px;}
+#btn-res{width: 200px; height: 60px; border-radius: 15px; color: white; font-size: 1.3rem;
+    background-color: #A5E374; border: none; font-weight: bold;}
+#btn-res:hover {background-color: #8bdf4b;}
+#resume_title{font-size: 1.8rem; color: #373F57;}
+#resumemg{height: 550px;}
+#resumemgbox2{display: flex;}
+#info{display: inline !important; width: 250px;}
+#myinfo{display: inline !important; width: 920px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+#resumetop{margin-top: -200px; }
+
+/*자기소개서*/
+#self{margin-top: 50px;}
+#self>h1{font-size: 2.1rem; font-weight: bold; color: #373F57;
+    margin-bottom: 40px;}
+.selfbox_in_del{width: 1220px; display: flex; justify-content: right;}
+.selfbox_in_del>input{width: 80px; height: 40px; margin-top: -50px; border-radius: 10px;}
+#self_delbtn{margin-right: 15px; background-color: #e6e6e6; color: #858585; font-size: 1rem; font-weight: bold;
+    border: none;}
+#self_delbtn:hover{background-color: #A5E374; color: white;}
+.chbtn-box{float: right; margin-top: -100px; margin-right: 10px;}
+.chbtn-box>input{width: 80px; height: 40px; border: none; border-radius: 10px;}
+#update{background-color: #A5E374; color: white;}
+#update:hover {background-color: #8bdf4b;}
+#delete{background-color: #D6D6D6; color: #858585;}
+#delete:hover{background-color: #c6c6c6;}
+.self_box{width: 1220px; background: rgba(165, 227, 116, 0.3); border-radius: 10px;
+    margin-bottom: 50px; display: flex; justify-content: left;}
+#self_introduction{margin: 30px 40px; margin-bottom: 60px;}
+#self_introduction>p{margin-bottom: 0.2rem;}
+#self_introduction>p>span{font-size: 1.3rem; color: #50B500; font-weight: bold;}
+.self_introductionbox{font-weight: bold; font-size: 1.5rem; color: #373F57;}
+.selfContent{width: 1150px; max-height: 140px; line-height: 20px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; word-wrap: break-word;}
+/*section*/
+section{width: 1220px; margin: 0 auto; margin-top: 100px;}
+/*article*/
+#self_introduction_box{margin-top: -30px; width: 1220px; height: 1200px; background: rgba(165, 227, 116, 0.3); border-radius: 10px;
+   display: flex; justify-content: center; align-items: center;}
+article>h1{font-size: 2.1rem; font-weight: bold; color: #373F57;
+   margin-bottom: 60px;}
+#self_box{width: 1180px;}
+#self_title{width: 1180px; height: 60px; background-color: white; margin-bottom: 20px;}
+#contents_box{width: 1180px; height: 1080px; background-color: white;}
+#input_title{width: 1180px; height: 60px; border: none; outline: unset; font-size: 1.8rem; color: #373F57;}
+#input_contents{width: 1180px; height: 1080px; border: none; outline: unset; font-size: 1.3rem; color: #373F57;
+   -ms-overflow-style: none;}
+#self_inbox{display: none; margin-top: 30px;}
+/*작성button*/
+#btn-self{display: flex; justify-content: space-between; width: 330px; margin: 0 auto; margin-top: 40px;}
+.btn-self{width: 150px; height: 60px; border-radius: 15px; color: white; font-size: 1.3rem;
+   background-color: #A5E374; border: none; font-weight: bold;}
+.btn-self:last-child{background-color: #D6D6D6; color: #858585;}
+
+/*작성button*/
+.btn-sel{display: flex; justify-content: center; width: 100vw; margin-top: 35px;}
+#btn-sel{width: 200px; height: 60px; border-radius: 15px; color: white; font-size: 1.3rem;
+    background-color: #A5E374; border: none; font-weight: bold;}
+#btn-sel:hover {background-color: #8bdf4b;}
+#createBtn{display: none;}
+#updateBtn{display: none;}
+
+/*footer*/
+footer{width: auto; height: 240px;}

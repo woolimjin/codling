@@ -1,0 +1,81 @@
+/* body */
+@import url(font.css);
+
+* {font-family: 'MapoPeacefull'; color: #373F57;}
+@font-face {
+    font-family: 'MapoPeacefull';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoPeacefullA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{margin: 0 auto; width: 1220px;}
+a{text-decoration: none;}
+#box{width: 150px;}
+#menu-bar{width: 1220px; margin: 0 auto; margin-top: 25px;  display: flex; justify-content: space-between; align-items: center;}
+
+/*header*/
+#menu-bar>div{height: 5px;}
+#logoimg{width: 253.32px; height: 56.82px;}
+#profilelogo{width: 35px; height: 35px; margin: 5px;}
+#profile-box{display: flex; align-items: center; height: 56.81px; color: #373F57; font-weight: bold;}
+#mename{position: relative; top:-15px;}
+#hover-box{height: 45px;}
+#hover-box:hover{background-color: #e6e6e6; border-radius: 30px; cursor: pointer;}
+#profile-hover{border: 1px solid #cecece; width: 150px; height: 160px; float: right; margin-right: 0px;
+   border-radius: 10px;}
+#profile-hover>ul{margin-top: 0px;}
+#profile-hover>ul>li>a{text-decoration: none; color: #656978; font-size: 1rem; display: inline-block;
+   width: 150px; height: 40px; display: flex; align-items: center; margin-left: -32px;
+   margin-top: 10px; font-weight: bold;}
+#profile-hover>ul>li>a>span{ margin-left: 10px;}
+#mypage>a:hover{background-color: #e6e6e6;}
+#resume>a:hover{background-color: #e6e6e6;}
+#logout>a:hover{background-color: #e6e6e6;}
+ul{list-style: none;}
+
+
+/*section*/
+section{width: 1220px; margin: 100px auto;}
+
+dt{font-size: 1.1rem; font-weight: normal; font-weight: bold;}
+dl,dd{font-size: 1.1rem; font-weight: bold;}
+#box{width: 150px}
+#hover-box{white-space: nowrap;}
+.jobOpeningmg1{width: 1220px; height: 250px; background: rgba(165, 227, 116, 0.3); border-radius: 10px;
+    display: flex; justify-content: left; align-items: center; margin-top: 30px; }
+#jobOpening1 h3{font-weight:bold; margin-left: 20px; margin-bottom: 25px;}
+.jobOpeningbox1{height: 60px; margin-left: 40px;}
+.jobOpeningbox1>p>span{font-size: 0.9rem; color: #50B500; font-weight: bold;}
+.jobOpeningbox2{font-weight: bold; font-size: 1.5rem; color: #373F57; line-height: 15px;}
+.content1{display: flex; margin-left: 40px; line-height: 1.5rem; margin-top: 1rem;}
+.content1 dl{width: 1180px; font-size: 1rem; color:#373F57; margin-bottom: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.content1 dt{margin-right: 0.5rem; float:left; width: 100px;}
+
+#resumeMenu {margin-left: 20px; margin-bottom: 20px;}
+.resumeMenu {margin-right: 15px; padding: 7px 12px; color: #A3A3A3; border: 1px solid white; border-radius: 10px; }
+.resumeMenu:first-child {color: white; background-color: rgb(165, 227, 116);}
+
+.resumeBtn {width: 120px; height: 37px; background-color: #A5E374; color: white; border: none; border-radius: 10px; position: relative; top: -280px; left: 1045px;}
+.resumeBtn:hover {background-color: #8BDF4B;}
+#jobOpening2 h3{font-weight:bold; margin-left: 20px; margin-top: 60px; margin-bottom: 25px;}
+
+.resumeWrap {width: 1220px; margin-bottom: 30px; padding: 35px 40px 0; border-radius: 10px;}
+.resumeWrap dl {display: flex; margin-bottom: 0;}
+.resumeWrap dt {width: 130px;}
+.resumeWrap dd {margin-bottom: 0;}
+.resumeTitle {font-weight: bold; font-size: 1.5rem; color: #373F57; line-height: 15px; margin-bottom: 25px;}
+
+.waitResume, .acceptResume {font-size: 0.9rem; color: #50B500; font-weight: bold;}
+.refuseResume {font-size: 0.9rem; color: #A3A3A3; font-weight: bold;}
+.wait {background-color: #F5F5F5;}
+
+.accept {background-color: rgba(165, 227, 116, 0.3);}
+
+.refuse,.refuse>p,.refuse dd,.refuse dl,.refuse dt {background-color: #F5F5F5; color: #A3A3A3 !important;}
+
+footer{ display: flex; height: 80px; background-color: #F0F0F0; border-top: #dddddd solid 0.1rem;
+    color: #BEBEBE; margin-top: 5vh; font-size: 0.8rem; justify-content: center; align-items: center;}
+    footer a:hover{text-decoration: underline; color: #BEBEBE;}
+    footer img{margin: 0 2rem;}
+footer a {color:inherit;}

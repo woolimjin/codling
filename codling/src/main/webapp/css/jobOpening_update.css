@@ -1,0 +1,96 @@
+/* body */
+@font-face {
+   font-family: 'MapoPeacefull';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoPeacefullA.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+* {font-family: 'MapoPeacefull'; color: #373F57;}
+header{margin: 0 auto; width: 1220px;}
+a{text-decoration: none; color: inherit;}
+#menu-bar{width: 1220px; margin: 0 auto; margin-top: 25px;  display: flex; justify-content: space-between; align-items: center;}
+
+/*header*/
+#menu-bar>div{height: 5px;}
+#logoimg{width: 253.32px; height: 56.82px;}
+#profilelogo{width: 35px; height: 35px; margin: 5px;}
+#profile-box{display: flex; align-items: center; height: 56.81px; color: #373F57; font-weight: bold;}
+#mename{position: relative; top:-13px;}
+#hover-box{height: 45px;}
+#hover-box:hover{background-color: #e6e6e6; border-radius: 30px; cursor: pointer;}
+#profile-hover{border: 1px solid #cecece; width: 150px; height: 160px; float: right; margin-right: 0px;
+   border-radius: 10px;}
+#profile-hover>ul{margin-top: 0px;}
+#profile-hover>ul>li>a{text-decoration: none; color: #656978; font-size: 1rem; display: inline-block;
+   width: 150px; height: 40px; display: flex; align-items: center; margin-left: -32px;
+   margin-top: 10px; font-weight: bold;}
+#profile-hover>ul>li>a>span{ margin-left: 10px;}
+#mypage>a:hover{background-color: #e6e6e6;}
+#resume>a:hover{background-color: #e6e6e6;}
+#logout>a:hover{background-color: #e6e6e6;}
+ul{list-style: none;}
+
+/*section*/
+section{width: 1220px; margin: 0 auto; margin-top: 100px;}
+h3{font-weight:bold;margin-top: 35px;}
+input:focus {outline:none;}
+input{height: 35px;outline: unset; border: solid 1.5px #858585;border-radius: 5px;font-size: 15px;padding: 2px 10px;}
+td{font-weight:bold;color:#373F57;}
+
+/*회사정보 */
+#companyinfo{width: 1220px; height: 200px; background: #F8F8F8; border-radius: 10px;display: flex; justify-content: left; align-items: center;margin-top: 30px;}
+#companyinfo button{width: 100px; height:30px; background-color:#8F8F8F; color:#FFFFFF; border-radius:5px;border: 0;}
+#companyinfo_btn{margin-left: 10px;line-height : 10px; }
+
+/* 제목 및 채용일자 */
+#title{width: 1220px; height: 200px; background: #F8F8F8; border-radius: 10px;display: flex; justify-content: left; align-items: center;margin-top: 25px;}
+
+/* 모집분야 */
+.field{width: 1220px; background: #F8F8F8; border-radius: 10px; align-items: center; margin-top: 30px; padding-top: 30px; padding-bottom: 55px;}
+#field {padding-top: 65px;}
+.career_year{width: 40px;margin-top:-25px;vertical-align:middle;}
+
+.stackTd {position: relative;}
+#keyword {width: 300px;}
+#stacks {display: flex; width: 1000px; flex-flow: row wrap;}
+.st {display: flex; margin-right: 10px; margin-bottom: 10px; background-color: #A5E374; border-radius: 50px; padding: 0 12px;}
+.stack {margin-right: 10px; display: flex; color: white; font-size: 1.3rem; font-weight: bold;}
+#suggest {width: 900px; padding: 0; max-height: 300px; background-color: white; overflow-y: scroll; box-shadow: 0 4px 8px 0 rgb(20 20 20 / 2%), 4px 16px 24px 0 rgb(20 20 20 / 12%);}
+#suggest li {cursor: pointer; height: 50px; line-height: 25px;}
+#suggest li:hover {background-color: #D6D6D6;}
+.s {width: 100%; height: 100%; color: #0D6EFD; padding-left: 32px; display: inline-block;}
+
+#btn{display: flex; justify-content: space-between;}
+/* 추가버튼 */
+#add{ background-color: #A5E374; color: white;appearance: none; margin-top: 10px; float: right; margin-right: 10px; padding: 7px;font-size:medium; font-weight: 400; text-align: center;
+text-decoration: none; display: block; width: 80px; height: 40px; border: none; border-radius: 10px;
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);cursor: pointer;}
+#stack{width: 900px; height: 40px;}
+#textbox{width:900px; height:120px; margin-top: 20px; line-height: 20px;}
+label{position:relative;top:-7px;}
+/* 삭제버튼 */
+#del{-webkit-appearance: none; -moz-appearance: none; appearance: none; font-size: medium;text-decoration: none;font-weight: 400;text-align: center; display: inline-block;width: 80px;height: 40px;
+border: none;border-radius: 10px;box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+cursor: pointer;background-color:#D6D6D6; border:0;color: #858585;position: relative; top: -15px; left: 1125px;}
+td{line-height: 50px; padding-left: 30px;}
+table{margin-left: 50px;}
+.field_del{position: absolute;width: 1px;height: 1px;padding: 0;margin: -1px;overflow: hidden;clip: rect(0, 0, 0, 0);border: 0;}
+
+/* 채용절차 */
+#process{width: 1220px; height: 270px; background: #F8F8F8; border-radius: 10px;
+display: flex; justify-content: left; align-items: center; margin-top: 25px;}
+
+#btnWrap {display: flex; justify-content: center; margin-top: 70px; margin-bottom: 200px;}
+#btn {display: flex; justify-content: space-around; width: 440px;}
+#btn input {width: 130px; height: 60px; border: 0; border-radius: 10px; font-size: larger; text-align: center; cursor: pointer; background-color: rgba(165, 227, 116, 0.8);}
+
+/*footer*/
+footer {display: flex; height: 80px; background-color: #F0F0F0; border-top: #dddddd solid 0.1rem; color: #BEBEBE; margin-top: 5vh; font-size: 0.8rem; justify-content: center; align-items: center;}
+footer a:hover {text-decoration: underline; color: #BEBEBE;}
+footer img {margin: 0 2rem;}
+
+#font_medium{font-weight:normal;}
+input[type='radio']+label{vertical-align: 7px; margin-top: 20px;}
+input[type='checkbox']+label{vertical-align: 7px; margin-top: 20px;}
+select{vertical-align: 12px;}
+span{vertical-align:-13px;}

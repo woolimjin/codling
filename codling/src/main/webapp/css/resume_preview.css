@@ -1,0 +1,54 @@
+        @import url(font.css);
+
+        * {font-family: 'MapoPeacefull';}
+
+        header{margin: 0 auto; width: 1220px;}
+        #menu-bar{width: 1220px; margin: 0 auto; margin-top: 25px;  display: flex; justify-content: space-between; align-items: center;}
+        body{color: #373F57;}
+        /*header*/
+        #menu-bar>div{width: 131.5px; height: 5px;}
+        #logoimg{width: 253.32px; height: 56.82px;}
+        #profilelogo{width: 35px; height: 35px; margin: 5px;}
+        #profile-box{display: flex; align-items: center; height: 56.81px; color: #373F57; font-weight: bold; white-space: nowrap;}
+        #hover-box:hover{background-color: #e6e6e6; border-radius: 30px; cursor: pointer;}
+        #profile-hover{border: 1px solid #cecece; width: 150px; height: 160px; float: right; margin-left: 10px;
+            border-radius: 10px;}
+        #profile-hover>ul>li>a{text-decoration: none; color: #656978; font-size: 1rem; display: inline-block;
+            width: 148px; height: 40px; display: flex; align-items: center; margin-left: -32px;
+            margin-top: 10px; font-weight: bold;}
+        #profile-hover>ul>li>a>span{ margin-left: 10px;}
+        #mypage>a:hover{background-color: #e6e6e6;}
+        #resume>a:hover{background-color: #e6e6e6;}
+        #logout>a:hover{background-color: #e6e6e6;}
+        ul{list-style: none;}
+        /*section*/
+        section{width: 1220px; margin: 0 auto; margin-top: 170px; display: flex;
+            justify-content: center;}
+        .url{font-size: 1.3rem !important;}
+        #file{font-size: 1.3rem;}
+        #title{margin-bottom: 50px;}
+        #idInfo{background-color: #F8F8F8; width: 1000px; height: 240px; padding-left: 50px; border-radius: 10px;
+            display: flex; align-items: center;}
+        .icon{width: 22px; height: 22px;}
+        #idInfo>div>p,#idInfo>div>span{font-size: 1.3rem;}
+        #Preview{width: 1000px;}
+        #gender{font-size: 1rem;}
+        .resume{display: flex; margin-top: 100px;}
+        .fr{width: 200px;}
+        .content{width: 600px; margin-left: 50px;}
+        .pj{font-weight: bold;}
+        #sts{font-size: 1.2rem;}
+        #schoolname{font-size: 1.5rem; }
+        #schooinfo{font-size: 1.3rem;}
+        #comname{font-size: 1.5rem;}
+        #part{font-size: 1.3rem;}
+        #licname{font-size: 1.5rem;}
+        #agency{font-size: 1.3rem;}
+        #reti{font-size: 1.5rem;}
+        #btn_box{margin-top: 100px; display: flex; justify-content: center;
+            margin-bottom: 15vh;}
+        .btn_{border: none; width: 100px; height: 50px; font-size: 1.5rem; border-radius: 10px;}
+        #yes{margin-right: 50px; background-color: #A5E374; color: white;}
+        #yes:hover{background-color: #8bdf4b;}
+        #no{background-color: #D6D6D6; color: #858585;}
+        #no:hover{background-color: #c6c6c6;}

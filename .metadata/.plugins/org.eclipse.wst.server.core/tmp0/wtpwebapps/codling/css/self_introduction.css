@@ -1,0 +1,42 @@
+        @import url(font.css);
+
+        * {font-family: 'MapoPeacefull';}
+
+        header{margin: 0 auto; width: 1220px;}
+        #menu-bar{width: 1220px; margin: 0 auto; margin-top: 25px;  display: flex; justify-content: space-between; align-items: center;}
+        /*header*/
+        #menu-bar>div{width: 131.5px; height: 5px;}
+        #logoimg{width: 253.32px; height: 56.82px;}
+        #profilelogo{width: 35px; height: 35px; margin: 5px;}
+        #profile-box{display: flex; align-items: center; height: 56.81px; color: #373F57; font-weight: bold;}
+        #hover-box:hover{background-color: #e6e6e6; border-radius: 30px;}
+        #profile-hover{border: 1px solid #cecece; width: 150px; height: 110px; float: right; margin-left: 10px;
+                border-radius: 10px;}
+        #profile-hover>ul>li>a{text-decoration: none; color: #656978; font-size: 1rem; display: inline-block;
+            width: 148px; height: 40px; display: flex; align-items: center; margin-left: -32px;
+            margin-top: 10px; font-weight: bold;}
+        #profile-hover>ul>li>a>span{ margin-left: 10px;}
+        #resume>a:hover{background-color: #e6e6e6;}
+        #logout>a:hover{background-color: #e6e6e6;}
+        ul{list-style: none;}
+        /*section*/
+        section{width: 1220px; margin: 0 auto; margin-top: 100px;}
+         /*article*/
+        #self_introduction_box{margin-top: -30px; width: 1220px; height: 1200px; background: rgba(165, 227, 116, 0.3); border-radius: 10px;
+            display: flex; justify-content: center; align-items: center;}
+        article>h1{font-size: 2.1rem; font-weight: bold; color: #373F57;
+            margin-bottom: 60px;}
+        #self_box{width: 1180px;}
+        #self_title{width: 1180px; height: 60px; background-color: white; margin-bottom: 20px;}
+        #contents_box{width: 1180px; height: 1080px; background-color: white;}
+        #input_title{width: 1180px; height: 60px; border: none; outline: unset; font-size: 1.8rem; color: #373F57;}
+        #input_contents{width: 1180px; height: 1080px; border: none; outline: unset; font-size: 1.3rem; color: #373F57;
+            -ms-overflow-style: none;}
+        /*작성button*/
+        .btn-self{display: flex; justify-content: center; width: 100vw; margin-top: 35px;}
+        #btn-self{width: 150px; height: 60px; border-radius: 15px; color: white; font-size: 1.3rem;
+            background-color: #A5E374; border: none; font-weight: bold; margin-right: 10px;}
+        #btn-self-back{width: 150px; height: 60px; border-radius: 15px; font-size: 1.3rem;
+            background-color: #D6D6D6; color: #858585; border: none; font-weight: bold;}
+        /*footer*/
+        footer{width: auto; height: 240px;}

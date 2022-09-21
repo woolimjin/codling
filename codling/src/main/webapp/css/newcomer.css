@@ -1,0 +1,98 @@
+@import url(font.css);
+
+* {font-family: 'MapoPeacefull';}
+
+#default-header{width: 1220px; margin: 0 auto;}
+/*header*/
+#logoimg{width: 253.32px; height: 56.82x; display: inline-block;}
+/*searchbox*/
+.searchbox{width: 580px; height: 50px; outline: unset; border: none; height: 96%; margin-left: 10px;
+    font-size: 1.3rem; }
+#searbox{width: 650px; height: 50px; border: 2px solid #A5E374; display: inline-block; margin-left: 27px;
+    border: 5px solid #A5E374; box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.25); border-radius: 6px;}
+/*searchlogo*/
+.btn-search {width: 30px; height: 30px; outline: unset; border: none;
+    position: relative; left: -45px; background-image: url(../img/search.png); background-size: 30px; background-color: white;}
+.pow_box{width: 1220px; display: flex;}
+.leftArrow,.rightArrow,.leftArrow>img,.rightArrow>img{width: 100px; background-color: white; border: none;}
+.pow{width: 1020px; overflow: hidden;}
+.advertisement{display: flex;}
+.item>a>img{width: 1020px;}
+#btn_bar{display: flex; justify-content: center; margin-bottom: 20px; margin-top: 20px;}
+.apply_bar:first-child{background-color: #A5E374;}
+.apply_bar{width: 50px; height: 10px; margin: 10px 10px; background-color: #D9D9D9; border-style: none; border-radius: 5px;}
+/*loginbtn*/
+#login-btn{text-decoration-line: none;}
+.log{width: 80px; display: inline; float: right;
+    border: 3px solid #A5E374; border-radius: 5px; background-color: white;color: #8D8D8D; 
+    font-weight: bold; font-size: 1.05rem;}
+#log{ margin-left: 179.9px;}
+#scroll-log{margin-left: 80px;}
+.log:hover{background-color: #A5E374;color: white; font-size: 1.05rem;}
+/*login-view*/
+
+.profile-box{margin-top: 10px;}
+#hover-box{margin-left: 110px; height: 45px;}
+#login_header{display: flex; align-items: center; margin-top: 40px;}
+#menu-bar>div{width: 131.5px; height: 5px;}
+#profilelogo{width: 35px; height: 35px; margin: 5px;}
+#profile-box{display: block; align-items: center; height: 56.81px; color: #373F57; font-weight: bold;}
+#hover-box:hover{background-color: #e6e6e6; border-radius: 30px; cursor: pointer;}
+.pfhover{border: 1px solid #cecece; width: 150px; height: 160px; float: right;
+    border-radius: 10px;  background-color: white; position: relative; top: 10px; right: 0px;
+     display: none; z-index: 1;}
+#scroll-hover-box{margin-left: 25px;}
+#scroll-hover-box:hover{background-color: #e6e6e6; border-radius: 30px; cursor: pointer;}
+.pfhover>ul>li>a{text-decoration: none; color: #656978; font-size: 1rem; display: inline-block;
+    width: 148.5px; height: 40px; display: flex; align-items: center; margin-left: -32px;
+    margin-top: 10px; font-weight: bold;}
+.pfhover>ul>li>a>span{ margin-left: 10px;}
+#mypage>a:hover{background-color: #e6e6e6;}
+#resume>a:hover{background-color: #e6e6e6;}
+#logout>a:hover{background-color: #e6e6e6;}
+ul{list-style: none;}
+/*menu*/
+#menu>ul{ list-style: none; margin-top: 30px; display: flex;}
+.menu{text-decoration-line: none; color: #8D8D8D; margin: 0 20px; height: 50px; display: flex; align-items: center; 
+    font-size: 1.1rem; font-weight: bold; }
+.menu:hover{color: #A5E374 !important;}
+#scroll_newcomer{color: #A5E374;}
+#newcomer{color: #A5E374;}
+/*scroll-header*/
+#scroll-header-box{display: flex; justify-content: center; width: 100vw; align-items: center; z-index: 2;}
+#scroll-header{clear: both; display: flex; height: 100px; margin-left: -8px;
+    background-color: white; position: fixed; top: -130px;
+    transition: top 0.5s; box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25); z-index: 1;}
+#scroll-header-box>#menu>ul{display: flex; margin-top: 15px;}
+#scroll-header-box>#scroll_searbox{width: 400px !important; margin-top: 0px; border: 3px solid #A5E374;
+            margin-left: 20px; height: 50px; border-radius: 6px;}
+#scroll-header-box>#scroll_searbox>input{width: 350px !important; font-size: 1.1rem;}
+#scroll-header-box>.btn-search{top: 0px; left: -40px;}
+#scroll-header-box>a>#log{margin-top: 0px; margin-left: 75px;}
+
+
+/*section*/
+section{width: 1220px; margin: 0 auto;}
+/*파워광고*/
+.carousel-control-next,.carousel-control-prev{z-index: 0;}
+
+.sectionimg{text-decoration: none; color: rgb(255, 255, 255); font-size: 1.2rem;}
+.sectionimg:hover{color: #A5E374;}
+/*일반광고*/
+.col{padding: 5px 15px;}
+.card{border-top: 5px solid #A5E374; border-radius: 3px; cursor: pointer;}
+.card>#company_logo>img{height: 100%; width: 100%; object-fit: contain;}
+#company_logo{height: 120px; display: flex; align-items: center;}
+.card-body{height: 160px; overflow: hidden;}
+.card-title{font-weight: bold; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.contents{font-size: 0.9rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.cardlink,.cardlink:hover{text-decoration: none; color: #373F57;}
+.card-text>p{margin: 0;}
+.count{float: right; display: none;}
+.count>img{width: 20px; height: 20px;}
+/*footer*/
+footer{ display: flex; height: 80px; background-color: #F0F0F0; border-top: #dddddd solid 0.1rem;
+    color: #BEBEBE; margin-top: 5vh; font-size: 0.8rem; justify-content: center; align-items: center;}
+    footer a:hover{text-decoration: underline; color: #BEBEBE;}
+    footer img{margin: 0 2rem;}
+a{text-decoration: none; color:inherit;}
